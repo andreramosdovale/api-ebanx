@@ -14,6 +14,10 @@ export class AccountController {
   private withdrawUseCase = new WithdrawUseCase(this.db);
   private transferUseCase = new TransferUseCase(this.db);
 
+  default = async (req: FastifyRequest, reply: FastifyReply) => {
+    return reply.status(200).send();
+  };
+
   reset = async (req: FastifyRequest, reply: FastifyReply) => {
     this.resetUseCase.execute();
     return reply.status(200).send();
