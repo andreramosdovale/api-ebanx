@@ -1,4 +1,4 @@
-# **Account Management System**
+# **API Ebanx**
 
 Este projeto é uma aplicação para gerenciar contas bancárias, permitindo operações como depósito, saque, transferência e consulta de saldo. Ele utiliza uma arquitetura baseada em casos de uso e repositórios, com suporte para testes unitários utilizando Jest.
 
